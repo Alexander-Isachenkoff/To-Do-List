@@ -1,13 +1,12 @@
-package sample.view;
+package sample.control;
 
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.Window;
-import javafx.stage.WindowEvent;
+import sample.control.AddFileDialogController;
 import sample.interfaces.FileAction;
 
 import java.io.IOException;

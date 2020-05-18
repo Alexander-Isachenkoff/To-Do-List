@@ -1,9 +1,10 @@
-package sample.view;
+package sample.control;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
 import sample.FileList;
+import sample.control.util.FileListCallback;
 
 import java.io.File;
 import java.io.IOException;

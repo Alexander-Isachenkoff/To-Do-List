@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox spacing="10.0" stylesheets="@test.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.AddFileDialogController">
+<VBox spacing="10.0" stylesheets="@test.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.control.AddFileDialogController">
     <children>
         <Label text="Добавление проекта в список:" />
         <VBox spacing="10.0" style="-fx-border-color: lightgray; -fx-background-color: #fafafa;" VBox.vgrow="NEVER">

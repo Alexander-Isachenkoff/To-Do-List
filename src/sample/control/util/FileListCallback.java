@@ -1,4 +1,4 @@
-package sample.view;
+package sample.control.util;
 
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
@@ -7,7 +7,7 @@ import javafx.util.Callback;
 
 import java.io.File;
 
-class FileListCallback implements Callback<ListView<File>, ListCell<File>>
+public class FileListCallback implements Callback<ListView<File>, ListCell<File>>
 {
     @Override
     public ListCell<File> call(ListView<File> param) {
