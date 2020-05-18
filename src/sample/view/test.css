@@ -1,0 +1,55 @@
+.list-view:focused .list-cell:filled:focused:selected {
+    -fx-background-color: #beeb75;
+}
+
+.list-view:focused {
+    -fx-faint-focus-color: lightgray;
+    -fx-background-insets: 0, 1, 1;
+    -fx-background-radius: 0;
+}
+
+.button {
+    -fx-text-fill: #444444;
+    -fx-background-color: linear-gradient(#f5f5f5, #dcdcdc);
+    -fx-border-radius: 3;
+    -fx-border-color: #adadad;
+    -fx-background-insets: 0;
+    -fx-padding: 3 5;
+}
+
+.button:hover {
+    -fx-text-fill: #181818;
+    -fx-border-color: #808080;
+}
+
+.button:pressed {
+    -fx-text-fill: #333333;
+    -fx-background-color: linear-gradient(#e8e8e8, #bebebe);
+    -fx-border-color: #a0a0a0;
+}
+
+.hot-button {
+    -fx-background-color: linear-gradient(#f5f5f5, #beeb75);
+    -fx-border-color: #adadad;
+}
+
+.hot-button:pressed {
+    -fx-background-color: linear-gradient(#e8e8e8, #b0d96d);
+}
+
+.text-field {
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-border-color: #adadad;
+    -fx-padding: 3 5;
+    -fx-background-insets: 0;
+}
+
+.text-field:focused {
+    -fx-border-color: #808080;
+}
+
+.radio-button:focused .radio {
+    -fx-focus-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-faint-focus-color: transparent;
+}

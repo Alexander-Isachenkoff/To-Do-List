@@ -1,0 +1,29 @@
+.list-view:focused .list-cell:filled:focused:selected {
+    -fx-background-color: #beeb75;
+}
+
+.list-view:focused {
+    -fx-faint-focus-color: lightgray;
+    -fx-background-insets: 0, 1, 1;
+    -fx-background-radius: 0;
+}
+
+.text-field {
+    -fx-background-radius: 0;
+}
+
+.text-field:focused {
+    -fx-focus-color: #969696, -fx-inner-border, -fx-body-color;
+    -fx-faint-focus-color: transparent;
+    -fx-background-insets: 0, 1, 1;
+}
+
+.button {
+    -fx-background-radius: 2;
+}
+
+.button:focused {
+    -fx-focus-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-faint-focus-color: transparent;
+    -fx-background-insets: 0, 1, 2;
+}
